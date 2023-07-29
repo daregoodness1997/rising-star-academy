@@ -105,3 +105,19 @@ a {
     color-scheme: dark;
   }
 }
+
+
+video {
+  width: 100vw;
+  height: 60vh;
+  object-fit: cover;
+   filter: brightness(20%);
+}
+
+video.background-video{
+  position: absolute;
+  top:0;
+  left:0;
+  z-index: 1
+
+}
