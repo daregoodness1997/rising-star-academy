@@ -7,7 +7,15 @@ import { Flex } from "../styles/flex";
 export const Hero = () => {
   return (
     <Box
-      css={{ position: "absolute", top: "0", width: "100vw", height: "60vh" }}
+      css={{
+        position: "absolute",
+        top: "0",
+        width: "100vw",
+        height: "66vh",
+        "@sm": {
+          height: "65vh",
+        },
+      }}
     >
       <video autoPlay loop muted className="background-video">
         <source type="video/mp4" src="assets/video/hero-video.mp4" />
@@ -112,11 +120,36 @@ export const Hero = () => {
               pt: "$4",
               maxWidth: "800px",
               justifyContent: "center",
+              flexDirection: "column",
+              "@sm": {
+                flexDirection: "row",
+              },
             }}
-            wrap={"wrap"}
+            // wrap={"wrap"}
           >
-            <Input placeholder="Enter your email address" size="lg" />
-            <Button color="primary">Contact Us</Button>
+            <Input
+              placeholder="Enter your full name"
+              size="lg"
+              css={{
+                width: "100%",
+                "@sm": {
+                  width: "240px",
+                },
+              }}
+            />
+            <Input
+              placeholder="Enter your email address"
+              size="lg"
+              css={{
+                width: "100%",
+                "@sm": {
+                  width: "240px",
+                },
+              }}
+            />
+            <Button color="primary" auto>
+              Contact Us
+            </Button>
           </Flex>
         </Box>
       </Flex>
