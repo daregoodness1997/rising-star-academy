@@ -127,7 +127,7 @@ export const Nav = () => {
               </Dropdown.Item>
             </Dropdown.Menu>
           </Dropdown>
-          <Navbar.Link isActive href="#">
+          <Navbar.Link  href="#">
             Location
           </Navbar.Link>
           <Navbar.Link href="#">About Us</Navbar.Link>
