@@ -141,7 +141,7 @@ export const Nav = () => {
         {collapseItems.map((item, index) => (
           <Navbar.CollapseItem key={item}>
             <Link
-              color="$primary"
+              color="inherit"
               css={{
                 minWidth: "100%",
               }}
