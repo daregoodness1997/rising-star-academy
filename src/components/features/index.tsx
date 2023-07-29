@@ -18,7 +18,7 @@ export const Features3 = () => {
            justify={"center"}
            align={"center"}
            css={{
-             pt: "$24",
+             pt: "$28",
            }}
          >
            <Text span css={{ color: "$primary" }}>

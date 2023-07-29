@@ -19,7 +19,6 @@ export const Nav = () => {
   const { isDark, type } = useTheme();
   const collapseItems = [
     "Programs",
-    "Location",
     "About Us",
     "Blog",
     "Events",
@@ -127,9 +126,7 @@ export const Nav = () => {
               </Dropdown.Item>
             </Dropdown.Menu>
           </Dropdown>
-          <Navbar.Link  href="#">
-            Location
-          </Navbar.Link>
+          
           <Navbar.Link href="#">About Us</Navbar.Link>
           <Navbar.Link href="#">Blog</Navbar.Link>
           <Navbar.Link href="#">Events</Navbar.Link>
