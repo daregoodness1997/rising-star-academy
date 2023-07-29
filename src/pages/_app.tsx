@@ -16,7 +16,7 @@ export default function App({ Component, pageProps }: AppProps) {
     className: "light-modern",
     theme: {
       colors: {
-        primary: "#4ADE7B",
+         primary: '#4ADE7B',
       },
     },
   });

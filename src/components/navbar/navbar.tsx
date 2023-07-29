@@ -152,18 +152,18 @@ export const Nav = () => {
           </Navbar.CollapseItem>
         ))}
 
-        <Navbar.CollapseItem>
+        {/* <Navbar.CollapseItem>
           <Switch
             checked={isDark}
             onChange={(e: any) => setTheme(e.target.checked ? "dark" : "light")}
           />
-        </Navbar.CollapseItem>
+        </Navbar.CollapseItem> */}
       </Navbar.Collapse>
       <Navbar.Content>
         {/* <ModalLogin /> */}
 
         <Navbar.Item>
-          <Button auto flat href="#">
+          <Button auto  href="#">
             Contact Us
           </Button>
         </Navbar.Item>
@@ -179,12 +179,12 @@ export const Nav = () => {
                   <GithubIcon />
                </Link>
             </Navbar.Item> */}
-        <Navbar.Item hideIn={"xs"}>
+        {/* <Navbar.Item hideIn={"xs"}>
           <Switch
             checked={isDark}
             onChange={(e: any) => setTheme(e.target.checked ? "dark" : "light")}
           />
-        </Navbar.Item>
+        </Navbar.Item> */}
       </Navbar.Content>
     </Navbar>
   );

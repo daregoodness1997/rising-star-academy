@@ -116,12 +116,12 @@ export const Hero = () => {
               gap: "$8",
               pt: "$4",
               maxWidth: "800px",
-              justifyContent: "center"
+              justifyContent: "center",
             }}
             wrap={"wrap"}
           >
             <Input placeholder="Enter your email address" size="lg" />
-            <Button>Contact Us</Button>
+            <Button color="primary">Contact Us</Button>
           </Flex>
         </Box>
       </Flex>
