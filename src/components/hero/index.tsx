@@ -6,15 +6,10 @@ import { Flex } from "../styles/flex";
 
 export const Hero = () => {
   return (
-    <div style={{ position: "absolute", top: "0" }}>
-      <video
-        width="750"
-        height="500"
-        autoPlay
-        loop
-        muted
-        className="background-video"
-      >
+    <Box
+      css={{ position: "absolute", top: "0", width: "100vw", height: "60vh" }}
+    >
+      <video autoPlay loop muted className="background-video">
         <source type="video/mp4" src="assets/video/hero-video.mp4" />
       </video>
       <Flex
@@ -128,6 +123,6 @@ export const Hero = () => {
       <Divider
         css={{ position: "absolute", inset: "0p", left: "0", mt: "$10" }}
       />
-    </div>
+    </Box>
   );
 };

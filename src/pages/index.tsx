@@ -4,7 +4,7 @@ import { Layout } from "../components/navbar/layout";
 import { Hero } from "../components/hero";
 import { Trusted } from "../components/trusted";
 import { Box } from "../components/styles/box";
-import { Features3 } from "../components/features3";
+import { Features3 } from "../components/features";
 import { Testimonials } from "../components/tesminonials";
 import { Statistics } from "../components/statistics";
 import { Plans } from "../components/plans";

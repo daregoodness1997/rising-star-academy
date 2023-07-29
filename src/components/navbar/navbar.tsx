@@ -83,7 +83,7 @@ export const Nav = () => {
                 "& .nextui-dropdown-item": {
                   py: "$4",
                   svg: {
-                    color: "$secondary",
+                    color: "$primary",
                     mr: "$4",
                   },
                   "& .nextui-dropdown-item-content": {
@@ -141,7 +141,7 @@ export const Nav = () => {
         {collapseItems.map((item, index) => (
           <Navbar.CollapseItem key={item}>
             <Link
-              color="inherit"
+              color="$primary"
               css={{
                 minWidth: "100%",
               }}
@@ -163,7 +163,7 @@ export const Nav = () => {
         {/* <ModalLogin /> */}
 
         <Navbar.Item>
-          <Button auto  href="#">
+          <Button auto href="#">
             Contact Us
           </Button>
         </Navbar.Item>

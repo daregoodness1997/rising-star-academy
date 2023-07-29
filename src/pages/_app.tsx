@@ -22,7 +22,7 @@ export default function App({ Component, pageProps }: AppProps) {
   });
   return (
     <NextThemesProvider
-      defaultTheme="system"
+      defaultTheme="dark"
       attribute="class"
       value={{
         light: lightTheme.className,
