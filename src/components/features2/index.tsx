@@ -28,9 +28,9 @@ export const Features2 = () => {
          >
             <Flex direction="column" align={'center'}>
                <Text span css={{color: '$blue600'}}>
-                  Awesome Feature
+                  About Us
                </Text>
-               <Text h3>Your title here</Text>
+               <Text h3>What to know about US</Text>
                <Text
                   span
                   css={{

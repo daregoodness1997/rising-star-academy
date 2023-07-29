@@ -22,14 +22,21 @@ const Home: NextPage = () => {
         <Hero />
         {/* <Trusted /> */}
         {/* <Features1 /> */}
-        <Features2 />
-        <Features3 />
-        <Testimonials />
-        <Statistics />
-        <Plans />
-        <Faq />
-        <Trial />
-        <Footer />
+        <Box
+          css={{
+            marginTop: "22rem",
+            "@sm": {
+              marginTop: "32rem",
+            },
+          }}
+        >
+          <Features3 />
+          <Testimonials />
+
+          <Faq />
+
+          <Footer />
+        </Box>
       </Box>
     </Layout>
   );
