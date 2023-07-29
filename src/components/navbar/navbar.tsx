@@ -33,10 +33,21 @@ export const Nav = () => {
         "& .nextui-navbar-container": {
           background: "$background",
           borderBottom: "none",
+          "@sm": {
+            background: "transparent",
+          },
         },
       }}
     >
-      <Navbar.Brand>
+      <Navbar.Brand
+        css={{
+          background: "$background",
+          borderBottom: "none",
+          "@sm": {
+            background: "transparent",
+          },
+        }}
+      >
         <Navbar.Toggle aria-label="toggle navigation" showIn="xs" />
         <NistreLogo />
         <Text b color="inherit" hideIn="xs">
@@ -48,7 +59,7 @@ export const Nav = () => {
             pl: "6rem",
           }}
         >
-          <Dropdown >
+          <Dropdown>
             <Navbar.Item>
               <Dropdown.Button
                 auto
@@ -140,11 +151,11 @@ export const Nav = () => {
             </Link>
           </Navbar.CollapseItem>
         ))}
-      
+
         <Navbar.CollapseItem>
           <Switch
             checked={isDark}
-            onChange={(e:any) => setTheme(e.target.checked ? "dark" : "light")}
+            onChange={(e: any) => setTheme(e.target.checked ? "dark" : "light")}
           />
         </Navbar.CollapseItem>
       </Navbar.Collapse>
@@ -171,7 +182,7 @@ export const Nav = () => {
         <Navbar.Item hideIn={"xs"}>
           <Switch
             checked={isDark}
-            onChange={(e:any) => setTheme(e.target.checked ? "dark" : "light")}
+            onChange={(e: any) => setTheme(e.target.checked ? "dark" : "light")}
           />
         </Navbar.Item>
       </Navbar.Content>
