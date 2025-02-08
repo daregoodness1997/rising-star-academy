@@ -18,8 +18,7 @@ const Home: NextPage = () => {
       <Nav />
       <Box as="main">
         <Hero />
-        {/* <Trusted /> */}
-        {/* <Features1 /> */}
+
         <Box
           css={{
             marginTop: "22rem",

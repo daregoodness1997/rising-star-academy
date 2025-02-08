@@ -51,7 +51,7 @@ export const Hero = () => {
         >
           <Box
             css={{
-              maxWidth: "800px",
+              maxWidth: "1000px",
             }}
           >
             <Text
@@ -97,7 +97,7 @@ export const Hero = () => {
               }}
               color="primary"
             >
-              Nistre Academy
+              Rising Star Academy
             </Text>
           </Box>
 
@@ -105,7 +105,7 @@ export const Hero = () => {
             css={{
               color: "$accents8",
               textAlign: "center",
-              maxWidth: "800px",
+              maxWidth: "1000px",
             }}
             size={"$lg"}
             span
@@ -118,7 +118,7 @@ export const Hero = () => {
             css={{
               gap: "$8",
               pt: "$4",
-              maxWidth: "800px",
+              maxWidth: "1000px",
               justifyContent: "center",
               flexDirection: "column",
               "@sm": {
@@ -129,7 +129,7 @@ export const Hero = () => {
           >
             <Input
               placeholder="Enter your full name"
-              size="lg"
+              size="xl"
               css={{
                 width: "100%",
                 "@sm": {
@@ -139,7 +139,7 @@ export const Hero = () => {
             />
             <Input
               placeholder="Enter your email address"
-              size="lg"
+              size="xl"
               css={{
                 width: "100%",
                 "@sm": {
@@ -147,7 +147,7 @@ export const Hero = () => {
                 },
               }}
             />
-            <Button color="primary" auto>
+            <Button color="primary" auto size="lg">
               Contact Us
             </Button>
           </Flex>

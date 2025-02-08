@@ -38,11 +38,11 @@ export const Footer = () => {
                 gap: "$6",
               }}
               wrap={"wrap"}
-              align={'center'}
+              align={"center"}
             >
               <NistreLogo />
               <Text b color="inherit" hideIn="xs">
-                Nistre Academy
+                Rising Academy
               </Text>
             </Flex>
             <Flex

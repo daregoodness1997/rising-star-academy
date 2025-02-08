@@ -17,13 +17,7 @@ import { GithubIcon } from "../icons/GithubIcon";
 export const Nav = () => {
   const { setTheme } = useNextTheme();
   const { isDark, type } = useTheme();
-  const collapseItems = [
-    "Programs",
-    "About Us",
-    "Blog",
-    "Events",
-    "Staffs",
-  ];
+  const collapseItems = ["Programs", "About Us", "Blog", "Events", "Staffs"];
   return (
     <Navbar
       isBordered
@@ -50,7 +44,7 @@ export const Nav = () => {
         <Navbar.Toggle aria-label="toggle navigation" showIn="xs" />
         <NistreLogo />
         <Text b color="inherit" hideIn="xs">
-          Nistre Academy
+          Rising Star Academy
         </Text>
         <Navbar.Content
           hideIn="sm"
@@ -126,7 +120,7 @@ export const Nav = () => {
               </Dropdown.Item>
             </Dropdown.Menu>
           </Dropdown>
-          
+
           <Navbar.Link href="#">About Us</Navbar.Link>
           <Navbar.Link href="#">Blog</Navbar.Link>
           <Navbar.Link href="#">Events</Navbar.Link>
